@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
+}
+
+.top-bar {
+  height: 40px;
+  background-color: red;
+  color: white;
+  border-bottom: 2px solid black;
+  width: 100%;
+  position: fixed;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-bar {
+  list-style: none;
+  display: inline-block;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.title {
+  margin: auto;
+  border: 0;
+  text-align: left;
+  padding-left: 20px;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+
+.bar-elements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100%;
+  float:right;
+}
+
+
+.bar-elements > .home,
+.bar-elements > .settings {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  display: inline-block;
+  border-left: 2px solid black;
+}
+
+.bar-elements > .message {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.bar-elements > .notifications {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  display: inline-block;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.bar-elements > .message > .dropdown {
+  display: none;
+  position: absolute;
+  border: 2px solid blue;
+  border-top: 0;
+  margin-top: 10px;
+  margin-left: -20px;
+  padding: 0;
+}
+.bar-elements > .message:hover {
+  border-left: none;
+  background: black;
+}
+.bar-elements > .message:hover > .dropdown {
+  display: block;
+}
+
+.bar-elements > .message:hover > .dropdown > li{
+  list-style: none;
+  display: block;
+  background-color: blue;
+  border: 2px solid black;
+  min-width: 120px;
+  padding-left: 0;
+}
+.bar-elements > .message:hover > .dropdown > li:hover {
+  background: orange;
+}
+
+.main {
+  padding-top: 50px ;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.sidebar{
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 30%;
+  border-right: 2px solid lightgray;
+}
+
+.content {
+  padding-left: 37%;
+  padding-right: 15px;
+}
+
+
+.message strong {
+  background: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.message:hover strong {
+  background: red;
+}
+
+.bottom-bar {
+  border: 2px solid gray;
+  background: lightgray;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.bottom-bar > .copyright {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+.bottom-bar > .bottom-links {
+  display: inline-block;
+  float: right;
+}
+.bottom-bar > .bottom-links div {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+

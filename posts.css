@@ -1,0 +1,46 @@
+body, ul {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+body {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.posts {
+  width: 500px;
+  margin: auto;
+}
+
+.post-item {
+  border: 10px solid lightgray;
+  margin-bottom: -10px;
+}
+
+.post-head {
+  color: gray;
+  padding: 20px;
+  border-bottom: 2px solid lightgray;
+}
+
+.post-head strong {
+  color: blue;
+}
+
+.post-head img {
+  height: 50;
+  width: 50;
+  margin-right: 20px;
+  border: 2px solid blue;
+  float: left;
+}
+
+.post-body {
+  padding: 20px;
+}
